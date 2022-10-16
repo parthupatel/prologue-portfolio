@@ -2000,7 +2000,21 @@ input, select, textarea {
 			.item header h3 {
 				font-size: 1em;
 			}
+		@media screen and (min-width: 961px) and (max-width: 1320px) {
 
+			.container {
+				width: 100%;
+			}
+
+		}
+
+		@media screen and (max-width: 960px) {
+
+			.container {
+				width: 100%;
+			}
+
+		}
 /* Icons */
 
 	.icon {
