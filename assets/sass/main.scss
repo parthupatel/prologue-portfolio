@@ -542,6 +542,17 @@
 				font-size: 1em;
 			}
 		}
+		.box-primary-lighter {
+  @extend %box-shape;
+  background-color: $primary-box-color-lighter;
+}
+
+.box-primary-darker {
+  @extend %box-shape;
+  background-color: $primary-box-color-darker;
+  
+  color: var(--primary-box-text);
+}
 	}
 
 /* Icons */
